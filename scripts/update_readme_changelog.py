@@ -9,6 +9,11 @@ import re
 import subprocess
 import sys
 
+# Memastikan output konsol selalu mendukung UTF-8 di Windows
+if sys.platform == "win32":
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+
 README_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "README.md"))
 REPO_BASE_URL = "https://github.com/mitracreativeenvironment-oss/bahanku"
 

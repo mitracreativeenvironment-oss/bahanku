@@ -13,6 +13,11 @@ import re
 import subprocess
 import sys
 
+# Memastikan output konsol selalu mendukung UTF-8 di Windows
+if sys.platform == "win32":
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 VERSION_FILE = os.path.join(BASE_DIR, "VERSION")
 VERSION_JSON = os.path.join(BASE_DIR, "version.json")
