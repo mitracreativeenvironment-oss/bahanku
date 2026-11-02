@@ -64,6 +64,7 @@ README ini secara otomatis mencatat setiap perubahan kode (commit) yang dilakuka
 <!-- CHANGELOG:START -->
 | Tanggal | Commit | Penulis | Deskripsi Perubahan |
 | :--- | :--- | :--- | :--- |
+| 2026-11-02 | [`dca09bc`](https://github.com/mitracreativeenvironment-oss/bahanku/commit/dca09bc31b985dcf58f9ed2e7800983096e2d57b) | gelon2 | fix: pastikan kompatibilitas UTF-8 terminal Windows pada script release dan changelog |
 | 2026-11-02 | [`bea50b2`](https://github.com/mitracreativeenvironment-oss/bahanku/commit/bea50b2edd5f72452117ac6d19cfca8624e4cf40) | gelon2 | feat: tambahkan sistem versi SemVer dan otomatisasi rilis GitHub |
 | 2026-11-02 | [`9c794c7`](https://github.com/mitracreativeenvironment-oss/bahanku/commit/9c794c7fc6f79dba38269af632e1710a8b304582) | gelon2 | feat: inisialisasi repositori dan sistem otomatisasi changelog README.md |
 <!-- CHANGELOG:END -->
