@@ -1,0 +1,14 @@
+#!/bin/sh
+# Git pre-push hook: Perbarui README.md changelog secara otomatis sebelum push
+
+echo "🔍 Memeriksa dan memperbarui changelog di README.md..."
+python scripts/update_readme_changelog.py
+
+# Periksa apakah README.md berubah
+if ! git diff --quiet README.md; then
+  echo "📝 README.md diperbarui. Menambahkan commit otomatis..."
+  git add README.md
+  git commit -m "docs: auto-update changelog in README.md [skip ci]" --no-verify
+fi
+
+exit 0
