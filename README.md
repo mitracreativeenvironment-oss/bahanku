@@ -64,6 +64,7 @@ README ini secara otomatis mencatat setiap perubahan kode (commit) yang dilakuka
 <!-- CHANGELOG:START -->
 | Tanggal | Commit | Penulis | Deskripsi Perubahan |
 | :--- | :--- | :--- | :--- |
+| 2026-11-02 | [`1d3fb57`](https://github.com/mitracreativeenvironment-oss/bahanku/commit/1d3fb57bdba109469e56a561bbadabb21177dd52) | gelon2 | feat(3d): implementasi landing page Schroling Horizontal 3D dan dashboard manajemen dengan Vue 3 & Three.js |
 | 2026-11-02 | [`be6898f`](https://github.com/mitracreativeenvironment-oss/bahanku/commit/be6898fa29c74fb356d9a9818f79d0d7333b4d70) | gelon2 | feat: tambahkan direktori 3d untuk penyimpanan aset dan model 3D |
 | 2026-11-02 | [`7132eb4`](https://github.com/mitracreativeenvironment-oss/bahanku/commit/7132eb4a324f0276011c902360f52f3f6ed5489b) | gelon2 | feat: sertakan tabel changelog langsung ke dalam deskripsi GitHub Release |
 | 2026-11-02 | [`dca09bc`](https://github.com/mitracreativeenvironment-oss/bahanku/commit/dca09bc31b985dcf58f9ed2e7800983096e2d57b) | gelon2 | fix: pastikan kompatibilitas UTF-8 terminal Windows pada script release dan changelog |
